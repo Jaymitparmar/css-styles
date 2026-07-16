@@ -1,0 +1,250 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    background: linear-gradient(135deg, #eef5fc 0%, #def0fa 100%);
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.header-info {
+    display: inline-block;
+    width: 60%;
+
+}
+
+.header-info h2 {
+    color: #0b448a;
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+
+.header-info p {
+    color: #666;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+.search-box {
+    display: inline-block;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 300px;
+}
+
+.search-box input {
+    border: none;
+    width: 85%;
+    font-size: 14px;
+}
+
+.search-box i {
+    color: #888;
+    float: right;
+    margin-top: 3px;
+}
+
+.header-image {
+    display: inline-block;
+   
+    text-align: right;  
+}
+
+
+.price-tag {
+    display: block;
+    background-color: #28a745;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    width: cover;
+    margin-top: 40px;
+    float: left;
+}
+
+.utility-bar {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.products-count {
+    display: inline-block;
+    width: 50%;
+    font-size: 14px;
+}
+
+.filters {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.select-box {
+    padding: 6px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.product-grid {
+    display: block;
+}
+
+.product-card {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    box-sizing: border-box;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff;
+
+}
+
+.badge-container {
+    display: block;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 3px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.sale-badge {
+    background-color: #dc3545;
+    float: left;
+    margin-right: 5px;
+}
+.clear-flax{
+    clear:both;
+}
+
+.percent-badge {
+    background-color: #28a745;
+    float: left;
+    margin-top: 8px;
+}
+
+.blue-bg {
+    background-color: #0d9488;
+}
+
+.promo-badge {
+    background-color: #ffc107;
+    color: #333;
+    float: left;
+}
+
+.deal-badge {
+    background-color: #dc3545;
+    float: left;
+}
+
+.hot-badge {
+    background-color: #e11d48;
+    float: left;
+    margin-right: 5px;
+}
+
+.product-img-wrapper {
+    display: block;
+    text-align: center;
+    height: 140px;
+    margin-bottom: 15px;
+}
+
+.product-img-wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.category {
+    display: block;
+    font-size: 11px;
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+.product-title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    height: 36px;
+
+}
+
+.rating {
+    display: block;
+    font-size: 12px;
+    color: #ffa500;
+    margin-bottom: 15px;
+}
+
+.card-footer {
+    display: block;
+    height: 30px;
+}
+
+.price {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
+
+.old-price {
+    font-size: 12px;
+    color: #aaa;
+    margin-left: 5px;
+}
+
+.add-btn {
+    display: inline-block;
+    float: right;
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
