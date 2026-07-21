@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    border:1px solid #ccc;
+    border-radius:8px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.card h2 span{
+    color:tomato;
+    font-size:50px;
+}
+
+.card p{
+    margin-bottom:8px;
+    line-height:25px;
+}
+
+.quote{
+    background:#fff6bf;
+    border-left:8px solid tomato;
+    padding:5px 10px;
+    font-style:italic;
+}
+
+.note{
+    background:#d8efc8;
+    margin-top:15px;
+    padding:10px;
+    font-weight:bold;
+}
